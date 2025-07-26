@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Team Bewerbung</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Bewirb dich fürs Team</h1>
+    <nav>
+      <a href="index.html">Startseite</a>
+      <a href="regeln.html">Regelwerk</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="mailto:deine@email.de" method="POST" enctype="text/plain">
+      <label>Dein Name:</label>
+      <input type="text" name="name" required />
+
+      <label>Discord Name:</label>
+      <input type="text" name="discord" required />
+
+      <label>Warum willst du ins Team?</label>
+      <textarea name="motivation" required></textarea>
+
+      <label>Hast du Erfahrung? Wenn ja, welche?</label>
+      <textarea name="erfahrung"></textarea>
+
+      <button type="submit">Absenden</button>
+    </form>
+  </main>
+</body>
+</html>
